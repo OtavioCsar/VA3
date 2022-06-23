@@ -71,7 +71,7 @@ public class Jogador {
 
     public Float calcularTotal() {
         for (int i = 0; i < tesouros.size(); i++) {
-            total = (Float) tesouros.get(i).calcularQuantia();
+            total = total + (Float) tesouros.get(i).calcularQuantia();
         }
         return total;
     }

@@ -11,6 +11,8 @@ public class Main {
         /*-------- */
 
         Castelo castelo1 = new Castelo(5, 30);
+        castelo1.recebeAtk(arma1);
+        System.out.println(castelo1.getVida());
 
         Jogador jogador1 = new Jogador("Heroi", "Humano", castelo1, arma1);
         jogador1.adicionarTesouro(reliquia);
